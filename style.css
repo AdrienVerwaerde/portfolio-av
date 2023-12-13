@@ -167,7 +167,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 2.5rem;
     height: 80vh;
 }
 
@@ -212,7 +212,7 @@ section {
 #profile img.arrow {
         position: absolute;
         right: 5rem;
-        bottom: 2.5rem;
+        bottom: 5rem;
     }
 
 
@@ -396,6 +396,7 @@ article .icon {
     background: (250,250,250);
     margin: 2rem auto;
     padding: 0.5rem;
+    gap: 0.5rem;
 }
 
 .contact-info-container {
@@ -422,7 +423,7 @@ article .icon {
 /* FOOTER */
 
 footer {
-    height: 26vh;
+    height: 30vh;
     margin: 0 1rem;
     position: relative;
 }
