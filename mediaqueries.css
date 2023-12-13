@@ -49,8 +49,11 @@
         height: 40vh;
     }
     #profile {
-        height: 83vh;
+        height: 50vh;
         margin-bottom: 0;
+    }
+    #hamburger-nav {
+        display: flex;
     }
     article {
         font-size: 1rem;

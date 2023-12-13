@@ -179,12 +179,6 @@ section {
     border-radius: 2rem;
 }
 
-/* .profile-pic {
-    display: flex;
-    border-radius: 5rem;
-    padding-left: 2.5rem;
-} */
-
 .section__text {
     align-self: center;
     text-align: center;
@@ -214,6 +208,13 @@ section {
     margin-top: 1rem;
     gap: 1rem;
 }
+
+#profile img.arrow {
+        position: absolute;
+        right: 5rem;
+        bottom: 2.5rem;
+    }
+
 
 /* ICONS */
 
@@ -289,10 +290,6 @@ section {
     
 }
 
-.about-pic {
-    border-radius: 2rem;
-}
-
 .arrow {
     position: absolute;
     right: -5rem;
@@ -313,12 +310,6 @@ section {
     gap: 4rem;
     height: 80%;
     justify-content: center;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -433,8 +424,16 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    position: relative;
 }
 
 footer p {
     text-align: center;
+}
+
+footer img.arrow {
+    position: absolute;
+    right: 4rem;
+    bottom: 5.5rem;
+    transform: rotate(180deg);
 }
