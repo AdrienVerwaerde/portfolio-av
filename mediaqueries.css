@@ -19,6 +19,13 @@
     #hamburger-nav {
         display: flex;
     }
+
+    #language-toggle {
+        padding-right: 0;
+        margin-right: 4.3rem;
+        position: relative;
+    }
+
     #experience, .experience-details-caontainer {
         margin-top: 2rem;
     }
@@ -42,14 +49,23 @@
     .about-containers {
         margin-top: 0;
     }
+
+
 }
 
 @media screen and (max-width: 600px) {
+
+    #language-toggle {
+        padding-right: 0;
+        margin-right: 1.5rem;
+        position: relative;
+    }
+    
     #contact, footer {
         height: 40vh;
     }
     #profile {
-        height: 50vh;
+        height: 73vh;
         margin-bottom: 0;
     }
     #hamburger-nav {
@@ -97,4 +113,15 @@
         text-align: justify;
     }
     
+    
+}
+
+@media screen and (max-width: 300px) {
+
+    #language-toggle {
+        padding-right: 0;
+        margin-right: 0;
+        position: relative;
+    }
+
 }

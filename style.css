@@ -68,6 +68,56 @@ a:hover {
     cursor: default;
 }
 
+
+/* FLAGS */
+
+#language-toggle {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    padding-right: 4.36rem;
+}
+
+#language-toggle-en {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    padding-right: 4.36rem;
+}
+
+#flag-en,
+#flag-fr {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+#flag-en:hover,
+#flag-fr:hover  {
+    transform: scale(1.1); /* Agrandissement */
+    background-image: none;
+    transition: all 300ms ease;
+}
+
+#flag-en:not(:hover),
+#flag-fr:not(:hover) {
+    transform: scale(1); /* Retour à la taille initiale */
+    transition: all 300ms ease;
+}
+
+#flag-en img,
+#flag-fr img {
+    width: 30px; 
+    height: auto;
+}
+
+#flag-en.active img,
+#flag-fr.active img {
+    border-color: rgb(53, 53, 53);
+}
+
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -435,6 +485,6 @@ footer p {
 footer img.arrow {
     position: absolute;
     right: 4rem;
-    bottom: 5.5rem;
+    bottom: 4.5rem;
     transform: rotate(180deg);
 }
