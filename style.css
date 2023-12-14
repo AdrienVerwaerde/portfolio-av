@@ -75,6 +75,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
+    padding-bottom: 0;
     padding-right: 4.36rem;
 }
 
@@ -262,7 +263,7 @@ section {
 #profile img.arrow {
         position: absolute;
         right: 5rem;
-        bottom: 5rem;
+        bottom: 5.6rem;
     }
 
 
@@ -485,6 +486,6 @@ footer p {
 footer img.arrow {
     position: absolute;
     right: 4rem;
-    bottom: 4.5rem;
+    bottom: 5.5rem;
     transform: rotate(180deg);
 }
